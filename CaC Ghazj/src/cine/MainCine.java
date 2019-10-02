@@ -23,7 +23,7 @@ public class MainCine {
 		
 		System.out.println("------------------------------------------------");
 		
-		System.out.println("Cambiooooooo para GITHUB");
+		//System.out.println("Cambiooooooo para GITHUB");
 		
 		
 		

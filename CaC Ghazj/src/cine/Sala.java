@@ -63,6 +63,22 @@ public String toString() {
 
 public void ocuparVarias(int butacaSupIzqFila, int butacaSupIzqCol, int butacaInfDerFila, int butacaInfDerCol) {
 	
+for(int i=0;i < butacas.length;i++) {
+		
+		for(int j=0;j<butacas[i].length;j++) {
+			butacas[i][j] = new ButacaStandar(i,j);
+			if (!(j == pasillo)) {
+				
+					butacas[i][j].desocupar();
+					
+			}else {
+				butacas[i][j].pasillo();
+			}
+				
+		}
+			
+	}
+	
 }
 
 
@@ -74,6 +90,22 @@ public Butaca getButaca(int fila,int num) {
 
 @Override
 public void asignarSector4D(int butacaSupIzqFila, int butacaSupIzqCol, int butacaInfDerFila, int butacaInfDerCol) {
+	
+for(int i=0;i < butacas.length;i++) {
+		
+		for(int j=0;j<butacas[i].length;j++) {
+			butacas[i][j] = new ButacaStandar(i,j);
+			if (!(j == pasillo)) {
+				
+					butacas[i][j].desocupar();
+					
+			}else {
+				butacas[i][j].pasillo();
+			}
+				
+		}
+			
+	}
 	
 }
 
